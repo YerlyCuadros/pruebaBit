@@ -9,7 +9,7 @@ if ( isset($_POST) && !empty($_POST)){
 
    $save = $e->guardar($_POST);
    if ($save){
-       $mensaje = '<div class="alert alert-warning" > Sección registrada </div>';
+       $mensaje = '<div class="alert alert-warning" > Registro creado </div>';
    }else{
       $mensaje = '<div class="alert alert-dark" > Error de registro </div>';
     }  
